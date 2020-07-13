@@ -1,0 +1,169 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.fixed {
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.onlinewebfonts.com%2Fsvg%2Fimg_111085.png&f=1&nofb=1");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 92%;
+    left: 92%;
+    z-index: 10;
+    font-size: 14px;
+}
+
+.fixed img {
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fixed:hover {
+    box-shadow: 2px 2px 5px black;
+}
+
+body {
+    background: #e6e6e6;
+    font-family: Verdana, Sans-serif;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #010e80;
+    display: table;
+    width: 100%;
+}
+
+nav li {
+    display: table-cell
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+h2 a {
+    padding: 33px 25px;
+    color: white;
+    text-decoration: none;
+}
+
+h2 a:hover {
+    background-color: #111;
+}
+
+figcaption {
+    text-align: center;
+}
+
+header {
+    margin-left: 14px;
+}
+
+.about {
+    width: 75%;
+    margin: auto;
+}
+
+article {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 15px;
+    max-width: 80%;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+article p {
+    text-align: center;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    right: 28px;
+}
+
+aside {
+    left: 9%;
+    border: 1px solid black;
+    padding: 15px;
+    max-width: 80%;
+    position: relative;
+    border-color: #010e80;
+    border-width: 5px;
+    font-size: 18px;
+    line-height: 1.3em;
+}
+
+.food {
+    line-height: 1.5em;
+}
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    bottom: -100px;
+    background-color: #010e80;
+}
+
+footer p {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+}
+
+video {
+    display: block;
+    width: 420px;
+    height: 250px;
+    padding: 15px;
+    margin: auto;
+}
+
+audio {
+    padding: 15px;
+    width: 98%;
+    box-sizing: border-box;
+}
+
+embed {
+    width: 400px;
+    height: auto;
+    padding: 15px;
+}
