@@ -13,6 +13,16 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 69px;
+    margin-top: 5px;
+}
+
+
+/*nav ul {
+    text-align: right;
+}*/
+
+.logo {
+    margin-top: 10px;
 }
 
 .nav-links {
@@ -20,6 +30,7 @@ nav {
     justify-content: space-around;
     min-width: 33%;
     list-style-type: none;
+    letter-spacing: 1px;
 }
 
 .nav-links a {
@@ -37,7 +48,55 @@ a:visited {
     cursor: pointer;
 }
 
-a:hover,
+a:hover {
+    color: blueviolet;
+}
+
 a:active {
     color: #6D0062;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: whitesmoke;
+    margin: 5px;
+}
+
+.burger {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .nav-links {
+        width: 10%;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    body {
+        overflow-x: hidden;
+    }
+    .nav-links {
+        position: absolute;
+        right: 0px;
+        top: 8vh;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translate(100%, 0%);
+        transition: transform 500ms ease-in;
+    }
+    .nav-links {
+        opacity: 0;
+    }
+    .burger {
+        display: block;
+        cursor: pointer;
+    }
+    .nav-active {
+        transform: translate(0, 0);
+    }
 }
