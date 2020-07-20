@@ -14,3 +14,30 @@ nav {
     align-items: center;
     height: 69px;
 }
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    min-width: 33%;
+    list-style-type: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
+    color: #FFFFFF;
+    padding: 15px 32px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover,
+a:active {
+    color: #6D0062;
+}
