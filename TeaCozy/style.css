@@ -7,3 +7,10 @@ body {
     text-align: center;
     vertical-align: middle;
 }
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 69px;
+}
