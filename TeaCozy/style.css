@@ -31,6 +31,7 @@
     
     .logo {
         margin-right: 10px;
+        border: 5px;
     }
     
     .nav-links {
@@ -113,6 +114,7 @@
         .burger {
             display: block;
             cursor: pointer;
+            margin-left: 10px;
         }
     }
     
