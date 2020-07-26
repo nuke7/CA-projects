@@ -168,15 +168,15 @@
     
     @media screen and (max-width: 1100px) {
         #mission {
-            width: 850px;
+            width: 90vw;
             height: 500px;
         }
         #store {
-            width: 700px;
+            width: 85vw;
             height: auto;
         }
         #locations {
-            width: 850px;
+            width: 90vw;
             height: auto;
         }
     }
@@ -211,15 +211,15 @@
             margin-left: 10px;
         }
         #mission {
-            width: 600px;
+            width: 90vw;
             height: 500px;
         }
         #store {
-            width: 500px;
+            width: 85vw;
             height: auto;
         }
         #locations {
-            width: 600px;
+            width: 90vw;
             height: auto;
         }
     }
