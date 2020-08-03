@@ -1,7 +1,7 @@
 This repo is for CA - or similar websites - inspired projects
 
-https://nuke7.github.io/CA-projects/TeaCozy/
+[A responsive website for a Tea shop](https://nuke7.github.io/CA-projects/TeaCozy/)
 
-https://nuke7.github.io/CA-projects/SimpleBlog/
+[A simple blog with header and navigation, plus multimedia elements](https://nuke7.github.io/CA-projects/SimpleBlog/)
 
-https://nuke7.github.io/CA-projects/grid-css/
+[A short project to showcase text and images in CSS grid](https://nuke7.github.io/CA-projects/grid-css/)
