@@ -1,0 +1,136 @@
+html {
+    transition: all 1s ease-in;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link,
+a:visited {
+    color: black;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: rgb(103, 120, 201);
+}
+
+a:active {
+    color: rgb(28, 53, 175);
+}
+
+nav {
+    height: 64px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: bisque;
+}
+
+.brand-desktop {
+    height: 32px;
+    text-transform: uppercase;
+    align-content: center;
+    align-items: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+}
+
+.links-desktop {
+    width: auto;
+    margin-right: 24px;
+}
+
+#colmar {
+    font-weight: 600;
+}
+
+#academy {
+    color: grey;
+    font-weight: 500;
+    margin-left: -4px;
+}
+
+#colmar,
+#academy {
+    display: inline-block;
+}
+
+.logo {
+    display: inline-block;
+}
+
+#brand {
+    margin-left: 24px;
+}
+
+.nav-link {
+    margin-right: 16px;
+}
+
+#brand-logo {
+    height: 100%;
+    width: 32px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.links-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .brand-desktop,
+    .links-desktop {
+        display: none;
+    }
+    .links-mobile {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    #mobile-logo {
+        background-image: url("images/ic-logo.svg");
+        height: 32px;
+        width: 32px;
+        background-repeat: no-repeat;
+        display: inline-block;
+    }
+    #mobile-campus {
+        background-image: url("images/ic-on-campus.svg");
+        height: 32px;
+        width: 32px;
+        background-repeat: no-repeat;
+        display: inline-block;
+    }
+    #mobile-online {
+        background-image: url("images/ic-online.svg");
+        height: 32px;
+        width: 32px;
+        background-repeat: no-repeat;
+        display: inline-block;
+    }
+    #mobile-login {
+        background-image: url("images/ic-login.svg");
+        height: 32px;
+        width: 32px;
+        background-repeat: no-repeat;
+        display: inline-block;
+    }
+}
