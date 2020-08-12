@@ -38,6 +38,6 @@ const useData = async () => {
 `;
 };
 
-window.onclick = async () => {
+document.querySelector("#button1").onclick = async () => {
   document.querySelector("#table").innerHTML = await useData();
 };
