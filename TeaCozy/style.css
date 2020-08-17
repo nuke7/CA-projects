@@ -263,5 +263,6 @@ footer {
 @media screen and (max-width: 360px) {
   .logo {
     width: 100px;
+    height: auto;
   }
 }
