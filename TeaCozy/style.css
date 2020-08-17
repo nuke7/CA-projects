@@ -259,3 +259,9 @@ footer {
 .active .line3 {
   transform: rotate(-45deg) translate(5px, -16px);
 }
+
+@media screen and (max-width: 360px) {
+  .logo {
+    width: 100px;
+  }
+}
