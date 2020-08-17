@@ -52,7 +52,8 @@ nav ul {
 
 .logo {
   /*padding-left: 5px;*/
-  height: 45px;
+  height: auto;
+  margin-top: 15px;
   /*width: auto;*/
 }
 
@@ -187,6 +188,12 @@ footer {
   }
   nav {
     justify-content: space-between;
+  }
+
+  .logo {
+    width: 30%;
+    height: auto;
+    margin-top: 15px;
   }
   .nav-links {
     position: absolute;
