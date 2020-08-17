@@ -208,7 +208,7 @@ footer {
   .burger {
     display: block;
     cursor: pointer;
-    margin-left: 10px;
+    margin-left: 5px;
   }
   #mission {
     width: 90vw;
