@@ -1,253 +1,253 @@
-    * {
-        margin: 0px;
-        padding: 0px;
-        box-sizing: border-box;
-    }
-    
-    html {
-        scroll-behavior: smooth;
-    }
-    
-    h2,
-    h3,
-    h4 {
-        margin: 0;
-        padding: 10px;
-    }
-    
-    body {
-        font-family: Helvetica, Arial, sans-serif;
-        font-size: 22px;
-        color: seashell;
-        background-color: black;
-        opacity: 0.9;
-        text-align: center;
-        vertical-align: middle;
-    }
-    
-    nav {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        height: 72px;
-        margin-right: auto;
-        margin-left: auto;
-        width: 100%;
-        position: fixed;
-        z-index: 5;
-        background-color: black;
-    }
-    
-    nav ul {
-        text-align: right;
-    }
-    
-    .flex-container {
-        display: flex;
-        flex-wrap: wrap;
-        text-align: center;
-        justify-content: space-around;
-        flex-shrink: 0;
-    }
-    
-    .logo {
-        padding-left: 10px;
-        height: 45px;
-        /*width: auto;*/
-    }
-    
-    .nav-links {
-        display: flex;
-        justify-content: space-around;
-        min-width: 30%;
-        list-style-type: none;
-        letter-spacing: 1px;
-    }
-    
-    .nav-links a {
-        text-decoration: none;
-    }
-    
-    a:link,
-    a:visited {
-        color: #FFFFFF;
-        padding: 15px 32px;
-        text-align: center;
-        -webkit-transition-duration: 0.4s;
-        transition-duration: 0.4s;
-        text-decoration: none;
-        cursor: pointer;
-    }
-    
-    a:hover {
-        color: rgb(103, 120, 201);
-    }
-    
-    a:active {
-        color: rgb(28, 53, 175);
-    }
-    
-    .burger div {
-        width: 25px;
-        height: 3px;
-        background-color: whitesmoke;
-        margin: 5px;
-        transition: all 500ms ease-in;
-    }
-    
-    #short {
-        width: 20px;
-    }
-    
-    .burger {
-        display: none;
-    }
-    
-    #mission {
-        height: 700px;
-        width: 1200px;
-        background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
-        padding-top: 50px;
-        margin: auto;
-    }
-    
-    .content {
-        background-color: black;
-        margin: auto;
-        width: 100%;
-    }
-    
-    #store {
-        width: 1000px;
-        height: 700px;
-        margin: auto;
-        margin-top: 40px;
-    }
-    
-    .item img {
-        height: 200px;
-        width: 300px;
-        margin-top: 25px;
-    }
-    
-    #locations {
-        background-image: url("images/locations-background.jpg");
-        height: 500px;
-        width: 1200px;
-        margin: auto;
-        padding-top: 70px;
-        margin-top: 40px;
-        margin-bottom: 20px;
-    }
-    
-    #location-title {
-        background-color: black;
-        margin-bottom: 30px;
-    }
-    
-    .location {
-        width: 300px;
-        /*height: 300px;*/
-        background-color: black;
-        margin-right: 40px;
-        margin-top: 40px;
-        line-height: 2em;
-        padding-bottom: 10px;
-        /*z-index: 4;*/
-    }
-    
-    #contact {
-        line-height: 2.5em;
-        margin-bottom: 20px;
-    }
-    
-    footer {
-        text-align: left;
-        margin-bottom: 10px;
-    }
-    
-    @media screen and (max-width: 1100px) {
-        #mission {
-            width: 90vw;
-            height: 500px;
-        }
-        #store {
-            width: 85vw;
-            height: auto;
-        }
-        #locations {
-            width: 90vw;
-            height: auto;
-        }
-    }
-    
-    @media screen and (max-width: 768px) {
-        body {
-            overflow-x: hidden;
-        }
-        nav {
-            justify-content: space-between;
-        }
-        .nav-links {
-            position: absolute;
-            right: 0px;
-            top: 6vh;
-            height: 60vh;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            width: 45%;
-            transform: translateX(100%);
-            transition: all 500ms ease-in;
-            background-color: rgb(126, 33, 37);
-            opacity: 0;
-        }
-        .nav-links li {
-            opacity: 0;
-        }
-        .burger {
-            display: block;
-            cursor: pointer;
-            margin-left: 10px;
-        }
-        #mission {
-            width: 90vw;
-            height: 500px;
-        }
-        #store {
-            width: 85vw;
-            height: auto;
-        }
-        #locations {
-            width: 90vw;
-            height: auto;
-        }
-    }
-    
-    .nav-active {
-        transform: translateX(0%);
-        opacity: 0.95;
-    }
-    
-    @keyframes navLinkAnimation {
-        from {
-            opacity: 0;
-            transform: translateX(50px);
-        }
-        to {
-            opacity: 1;
-            transform: translateX(0px);
-        }
-    }
-    
-    .active .line1 {
-        transform: rotate(45deg) translate(-5px, 6px);
-    }
-    
-    .active .line2 {
-        opacity: 0;
-    }
-    
-    .active .line3 {
-        transform: rotate(-45deg) translate(5px, -16px);
-    }
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  vertical-align: middle;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 72px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  position: fixed;
+  z-index: 5;
+  background-color: black;
+}
+
+nav ul {
+  text-align: right;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-around;
+  flex-shrink: 0;
+}
+
+.logo {
+  padding-left: 5px;
+  height: 45px;
+  /*width: auto;*/
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  min-width: 30%;
+  list-style-type: none;
+  letter-spacing: 1px;
+}
+
+.nav-links a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: #ffffff;
+  padding: 15px 32px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color: rgb(103, 120, 201);
+}
+
+a:active {
+  color: rgb(28, 53, 175);
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: whitesmoke;
+  margin: 5px;
+  transition: all 500ms ease-in;
+}
+
+#short {
+  width: 20px;
+}
+
+.burger {
+  display: none;
+}
+
+#mission {
+  height: 700px;
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  padding-top: 50px;
+  margin: auto;
+}
+
+.content {
+  background-color: black;
+  margin: auto;
+  width: 100%;
+}
+
+#store {
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+  margin-top: 25px;
+}
+
+#locations {
+  background-image: url("images/locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+  padding-top: 70px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+#location-title {
+  background-color: black;
+  margin-bottom: 30px;
+}
+
+.location {
+  width: 300px;
+  /*height: 300px;*/
+  background-color: black;
+  margin-right: 40px;
+  margin-top: 40px;
+  line-height: 2em;
+  padding-bottom: 10px;
+  /*z-index: 4;*/
+}
+
+#contact {
+  line-height: 2.5em;
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1100px) {
+  #mission {
+    width: 90vw;
+    height: 500px;
+  }
+  #store {
+    width: 85vw;
+    height: auto;
+  }
+  #locations {
+    width: 90vw;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  nav {
+    justify-content: space-between;
+  }
+  .nav-links {
+    position: absolute;
+    right: 0px;
+    top: 6vh;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    transform: translateX(100%);
+    transition: all 500ms ease-in;
+    background-color: rgb(126, 33, 37);
+    opacity: 0;
+  }
+  .nav-links li {
+    opacity: 0;
+  }
+  .burger {
+    display: block;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  #mission {
+    width: 90vw;
+    height: 500px;
+  }
+  #store {
+    width: 85vw;
+    height: auto;
+  }
+  #locations {
+    width: 90vw;
+    height: auto;
+  }
+}
+
+.nav-active {
+  transform: translateX(0%);
+  opacity: 0.95;
+}
+
+@keyframes navLinkAnimation {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.active .line1 {
+  transform: rotate(45deg) translate(-5px, 6px);
+}
+
+.active .line2 {
+  opacity: 0;
+}
+
+.active .line3 {
+  transform: rotate(-45deg) translate(5px, -16px);
+}
