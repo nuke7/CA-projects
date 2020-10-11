@@ -110,11 +110,11 @@ p {
 }
 
 .thumbnail {
-  width: 70px;
-  height: 70px;
+  width: 75px;
+  height: 75px;
   background: pink;
   border: 2px solid rgb(221, 193, 193);
-  margin: 2px;
+  margin: 1px;
   cursor: pointer;
 }
 
