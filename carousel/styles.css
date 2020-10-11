@@ -8,7 +8,7 @@ body {
 }
 
 #viewer {
-  width: 900px;
+  width: 500px;
   height: 400px;
   margin-right: auto;
   margin-left: auto;
@@ -30,7 +30,7 @@ body {
 #photo {
   position: relative;
   display: flex;
-  width: auto;
+  width: 400px;
   height: 400px;
   background: lime;
   margin-left: auto;
@@ -38,7 +38,7 @@ body {
 }
 
 img {
-  width: auto;
+  width: 400px;
   height: 400px;
 }
 
@@ -60,8 +60,8 @@ img {
 #image-info {
   position: absolute;
   margin-top: 270px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
   margin-bottom: 10px;
   /* background: black;*/
   opacity: 0.7;
@@ -114,7 +114,7 @@ p {
   height: 70px;
   background: pink;
   border: 2px solid rgb(221, 193, 193);
-  margin: 5px;
+  margin: 2px;
   cursor: pointer;
 }
 
