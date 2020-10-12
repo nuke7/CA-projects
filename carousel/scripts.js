@@ -19,7 +19,7 @@ let imagesData = [{
         description: 'Why is this a very good image'
     },
     {
-        photo: 'pic-05.jpeg',
+        photo: 'pic-05.jpg',
         title: 'My title',
         description: 'Why is this a very good image'
     },
@@ -39,7 +39,7 @@ let imagesData = [{
         description: 'Why is this a very good image'
     },
     {
-        photo: 'pic-09.jpeg',
+        photo: 'pic-09.jpg',
         title: 'My title',
         description: 'Why is this a very good image'
     },

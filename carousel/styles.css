@@ -100,8 +100,8 @@ p {
 }
 
 #thumbnails-container {
-  width: 800px;
-  height: 85px;
+  width: 900px;
+  height: 90px;
   /* background: green;*/
   display: flex;
   margin-top: 20px;
@@ -110,8 +110,8 @@ p {
 }
 
 .thumbnail {
-  width: 75px;
-  height: 75px;
+  width: 85px;
+  height: 85px;
   background: pink;
   border: 2px solid rgb(221, 193, 193);
   margin: 1px;
