@@ -1,4 +1,4 @@
-This repo is for CA - or similar websites - inspired projects
+This repo is for basic projects
 
 [A responsive website for a Tea shop](https://nuke7.github.io/CA-projects/TeaCozy/)
 
