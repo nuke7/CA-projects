@@ -6,4 +6,6 @@ This repo is for basic projects
 
 [A short project to showcase text and images in CSS grid](https://nuke7.github.io/CA-projects/grid-css/)
 
-[A carousel for instagram](https://nuke7.github.io/CA-projects/carousel)
+[A carousel for instagram with jQuery](https://nuke7.github.io/CA-projects/carousel)
+
+[Punk api frontend for beers](https://nuke7.github.io/CA-projects/punk-api)
