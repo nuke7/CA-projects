@@ -1,0 +1,27 @@
+{
+  "name": "post-office-javascript-nuke7",
+  "version": "1.0.0",
+  "description": "The bureaucracy is always a pain in the back.\r But without it, the life should be too fast and easy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodecoolGlobal/post-office-javascript-nuke7.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodecoolGlobal/post-office-javascript-nuke7/issues"
+  },
+  "homepage": "https://github.com/CodecoolGlobal/post-office-javascript-nuke7#readme",
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "styled-components": "^5.2.1",
+    "uuid": "^8.3.2"
+  }
+}
