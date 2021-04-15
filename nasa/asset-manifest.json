@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/CA-projects/nasa/static/css/main.c7fd8479.chunk.css",
+    "main.js": "/CA-projects/nasa/static/js/main.3d6d9b47.chunk.js",
+    "main.js.map": "/CA-projects/nasa/static/js/main.3d6d9b47.chunk.js.map",
+    "runtime-main.js": "/CA-projects/nasa/static/js/runtime-main.37c6c29b.js",
+    "runtime-main.js.map": "/CA-projects/nasa/static/js/runtime-main.37c6c29b.js.map",
+    "static/js/2.8dcd3da2.chunk.js": "/CA-projects/nasa/static/js/2.8dcd3da2.chunk.js",
+    "static/js/2.8dcd3da2.chunk.js.map": "/CA-projects/nasa/static/js/2.8dcd3da2.chunk.js.map",
+    "static/js/3.ced6be4b.chunk.js": "/CA-projects/nasa/static/js/3.ced6be4b.chunk.js",
+    "static/js/3.ced6be4b.chunk.js.map": "/CA-projects/nasa/static/js/3.ced6be4b.chunk.js.map",
+    "index.html": "/CA-projects/nasa/index.html",
+    "static/css/main.c7fd8479.chunk.css.map": "/CA-projects/nasa/static/css/main.c7fd8479.chunk.css.map",
+    "static/js/2.8dcd3da2.chunk.js.LICENSE.txt": "/CA-projects/nasa/static/js/2.8dcd3da2.chunk.js.LICENSE.txt",
+    "static/media/Loading1.554c5841.gif": "/CA-projects/nasa/static/media/Loading1.554c5841.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.37c6c29b.js",
+    "static/js/2.8dcd3da2.chunk.js",
+    "static/css/main.c7fd8479.chunk.css",
+    "static/js/main.3d6d9b47.chunk.js"
+  ]
+}
